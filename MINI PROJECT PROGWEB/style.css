@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+header{
+    padding: 10px;
+    background-color: darkblue;
+    color: white;
+    font-size: 20px;
+    padding-left: 40px;
+}
+
+.navcenter {
+    display: flex;
+    text-indent: 40px;
+    list-style-type: none;
+    font-size: 20px;
+    justify-content: center;
+    margin-top: -36px;
+}
+
+.loginsignup{
+    display: flex;
+    list-style-type:none ;
+    justify-content: right;
+    margin-top: -24px;
+    font-size: 20px;
+    text-indent: 40px;
+    margin-right: 50px;
+}
+.a{
+    color: white;
+}
+a:hover{
+    color: red;
+}
+.judul{
+    margin-right:30px ;
+    margin-left: 30px;
+    margin-top: 210px;
+    text-align: center;
+}
+.pencarian{
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+.eventterdekat{
+    margin-top: 30px;
+    margin-left:20px ;
+    padding-left: 20px;
+    border:2px  solid darkblue;
+    border-radius: 8px;
+    color: black;
+    width: 20%;
+    text-decoration: none;
+    text-align: center;
+}
+
+.poster{
+    
+    margin-top: 30px;
+    margin-left:20px ;
+    padding-left: 20px;
+}
+.informasi{
+    margin-top: 30px;
+    margin-left: 5px;
+    padding-left: 30px;
+}
