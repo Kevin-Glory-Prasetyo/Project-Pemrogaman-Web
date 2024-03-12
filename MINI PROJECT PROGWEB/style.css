@@ -1,120 +1,105 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
-
-
-
-
-header{
-    padding: 10px;
-    background-color: darkblue;
-    color: white;
-    font-size: 20px;
-    padding-left: 40px;
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
-
-.navcenter {
+nav{
+    width: 100%;
+    height: 10vh;
     display: flex;
-    text-indent: 40px;
-    list-style-type: none;
-    font-size: 20px;
-    justify-content: center;
-    margin-top: -36px;
-}
-
-.loginsignup{
-    display: flex;
-    list-style-type:none ;
-    justify-content: right;
-    margin-top: -24px;
-    font-size: 20px;
-    text-indent: 40px;
-    margin-right: 50px;
-}
-.a{
+    justify-content: space-around;
+    align-items: center;
     color: white;
 }
-a:hover{
-    color: red;
+nav .logo{
+    font-size: 1.5rem;
 }
-.judul{
-    margin-right:30px ;
-    margin-left: 30px;
-    margin-top: 210px;
-    text-align: center;
-}
-.pencarian{
-    text-align: center;
-    margin-top: 20px;
-    padding: 20px;
-}
-.eventterdekat{
-    margin-top: 30px;
-    margin-left:20px ;
-    padding-left: 20px;
-    border:2px  solid darkblue;
-    border-radius: 8px;
-    color: black;
-    width: 10%;
+nav .links a{
+    color: white;
     text-decoration: none;
+    font-size: 1.2rem;
+    margin: 0 10px;
+}
+nav .links a:hover{
+    text-decoration: underline;
+}
+nav .buttons{
+    width: 250px;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+nav .buttons button{
+    margin: 0 5px;
+    width: 40%;
+    height: 5vh;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size:1.1rem ;
+    font-weight:700 ;
+    color: white;
+    background-color: darkblue;
+    transition: 0.2s linear;
+}
+.buttons button:hover{
+    color: white;
+    background-color: transparent;
+    border: 2px solid rgb(7,113,219);
+    box-shadow: 0 0 10px 4px white;
+}
+section{
+    width: 110%;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    width: 40%;
     text-align: center;
+    color: black;
+}
+.content h1{
+    font-size: 25px;
+    color: white;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.search-field {
+    height: 30px; /* Tinggi input field */
+    width: 150px; /* Lebar input field */
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    margin-right: 20px; /* Jarak antara kolom input */
+    outline: none;
 }
 
-.posterjoyland{
-    margin-left: -1px;
-    padding-top: -1px;
-    width: 57.5cm;
-    border-image: 10px solid black;
+.search-btn {
+    height: 40px; /* Tinggi tombol search */
+    width: 300px; /* Lebar tombol search */
+    background-color: darkblue;
+    border: none;
+    color: white;
+    border-radius: 25px;
+}
 
-    
-
-}
-.IconTanggalJoyland img{
-    margin-left: 30px;
-    padding-top: 30px;
-    width: 30px;
-}
-.TanggalJoyland{
-    margin-left: 80px;
-    margin-top: -35px;
-    font-size:30px ;
-}
-.IconHargaJoyland img{
-    margin-left: 30px;
-    padding-top: 30px;
-    width: 30px;
-}
-.HargaJoyland{
-    margin-left: 80px;
-    margin-top: -35px;
-    font-size:30px ;
-}
-.DetailJoyland{
-    margin-left: 80px;
-    margin-top: 10px;
-    font-size:30px ;
-}
-.GarisJoyland{
-    width: 85%;
-    margin-left: 30px;
-    margin-top: 20px;
-}
-.IconNamaVendor img{
-    width: 80px;
-}
-.NamaVendor{
-    font-size: 30px;
-    margin-left: 80px;
-    margin-top: -60px;
-    display: block;
-}
-.BorderJoyland{
-    border: 6px solid darkgreen;
-    width: 23%;
-    height: 13cm;
-    margin-left:30px ;
-    margin-top: 30px;
-    float: left;
-    border-radius: 10px;
+.form-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

@@ -2,93 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navbar Responsive</title>
+    <title>Ticket Buying</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="header">
-        <header>
-            <h3 class="Logo">Get Ticket</h3>
-        </header>
-        <div class="navbar">
-            <nav>
-                <ul class="navcenter">
-                    <li><a href="#" id="a" class="a">Home</a></li>
-                    <li><a href="#" id="a" class="a">Tickets</a></li>
-                    <li><a href="#" id="a" class="a">About</a></li>
-                    <li><a href="#" id="a" class="a">Contact Us</a></li>
-                </ul>
-                <ul class="loginsignup">
-                    <li><a href="#" id="a" class="a">Login</a></li>
-                    <li><a href="#" id="a" class="a">Sign up</a></li>
-                </ul>
-            </nav>
+    <nav>
+        <div class="logo">
+            <h1>Get Ticket</h1>
         </div>
-    </div>
-    <div class="judul">
-        <h1>YOUR PASS TO UNFORGETTABLE MUSIC,<br>
-        BOOK YOUR CONCERT TICKET TODAY</h1>
-    </div>
-    <main>
-        <section>
-            <div class="pencarian">
-                <form action="" method="post">
-                    <label for="Lokasi_Provinsi">
-                        <input type="text" id="Provinsi_Id" name="Provinsi"  placeholder="Provinsi">
-                    </label>
-                    <label for="Nama_Kota">
-                        <input type="text" id="Kota_Id" name="Kota" placeholder="Kota">
-                    </label>
-                    <label for="Nama_Artis">
-                        <input type="text" id="Artis_Id" name="Artis" placeholder="Artis">
-                    </label>
-                    <label for="Tanggal_Konser">
-                        <input type="date" name="Tanggal" id="Tanggal_Id">
-                    </label>
-                    <label for="Pencarian">
-                        <input type="submit" name="Search" id="Search_Id" value="Search">
-                    </label>
-                </form>
-            </div>
-        </section>
-        <section>
-            <div class="eventterdekat">
-                <h2>Upcoming Event</h2>
-            </div>
-            <div class="BorderJoyland">
-                <div class="posterjoyland">
-                    <img src="https://s3-ap-southeast-1.amazonaws.com/loket-production-sg/images/banner/20240213090546.jpg" alt="" width="20%">
-                </div>
-                <div class="IconTanggalJoyland">
-                    <img src="https://assets.loket.com/web/legacy/svg/calendar.svg">
-                </div>
-                <div class="TanggalJoyland">
-                    <p> 1 Maret - 3 Maret 2024</p>
-                </div>
-                <div class="IconHargaJoyland">
-                    <img src="https://www.loket.com/web/assets/img/icon-price-new-grey.svg">
-                </div>
-                <div class="HargaJoyland">
-                    <p>Rp. 288.000,00</p>
-                </div>  
-                <div class="DetailJoyland">
-                    <p><a href="#">Detail Informasi </a></p>
-                </div>
-                <hr class="GarisJoyland">
-                <div class="IconNamaVendor">
-                    <img src="https://s3-ap-southeast-1.amazonaws.com/loket-production-sg/images/organization/20191014174608_5da451f0acdbc.png" alt="">
-                </div>
-                <div class="NamaVendor">
-                    <p>Plainsong Live</p>
-                </div>
-            </div>
-            <div>
-                
-            </div>
-        </section>
-            
-    </main>
+        <div class="links">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Service</a>
+            <a href="">Contact </a>
+        </div>
+        <div class="buttons">
+            <button>Login</button>
+            <button>Sign Up</button>
+        </div>
+    </nav>
+    <section>
+        <div class="content">
+            <form >
+                <h1>YOUR PASS TO UNFORGETTABLE MUSIC,<br>
+                    BOOK YOUR CONCERT TICKET TODAY</h1>
+                    <div class="form-box">
+                        <input type="text" class="search-field Provinsi" placeholder="Provinsi">
+                        <input type="text" class="search-field Kota" placeholder="Kota">
+                        <input type="text" class="search-field Artis" placeholder="Artis">
+                        <input type="date" class="search-field Tanggal">
+                        <button class="search-btn" type="button">Search</button>
+                    </div>
+            </form>
+        </div>
+    </section>
+    
 </body>
 </html>
