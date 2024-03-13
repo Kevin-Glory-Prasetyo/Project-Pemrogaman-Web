@@ -31,8 +31,9 @@ nav .links a{
     text-decoration: none;
     font-size: 1.2rem;
     justify-content: center;
-    padding: 10px;
+    padding: 2px;
     margin-left: 80px;
+    font-weight: ;
     
 }
 nav .links a:hover{
@@ -78,17 +79,15 @@ section{
     color: black;
 }
 .content h1{
-    font-size: 25px;
+    font-size: 28px;
     color: white;
     margin-right: 90px;
+    margin-top: -90px;
+    font-weight: bold;
+    margin-left: -45px;
+    text-align: center;
 }
-.content p{
-    font-size: 20px;
-    color: rgb(255, 255, 255);
-    margin-right: 90px;
-    margin-top: 5px;
-    font-weight: bolder;
-}
+
 body{
     margin: 0;
     padding: 0;
@@ -97,13 +96,13 @@ body{
 .Pencarian{
     height: 35px; /* Tinggi input field */
     width: 100px; /* Lebar input field */
-    padding: 10px;
+    padding: 5px;
     align-items: center;
     border: none;
     border-radius: 15px;
     margin-right: 30px; /* Jarak antara kolom input */
     outline: none;
-    margin-top: 20px;
+    margin-top: 35px;
     background-color: darkblue;
     color: whitesmoke;
     font-weight: bold;
@@ -117,7 +116,8 @@ body{
     border-radius: 20px;
     margin-right: 30px; /* Jarak antara kolom input */
     outline: none;
-    margin-top: 20px;
+    margin-top: 35px;
+    background-color: whitesmoke
 }
 .Kota{
     height: 35px; /* Tinggi input field */
@@ -128,7 +128,8 @@ body{
     border-radius: 20px;
     margin-right: 30px; /* Jarak antara kolom input */
     outline: none;
-    margin-top: 20px;
+    margin-top: 35px;
+    background-color: whitesmoke
 }
 .Artis{
     height: 35px; /* Tinggi input field */
@@ -139,7 +140,8 @@ body{
     border-radius: 20px;
     margin-right: 30px; /* Jarak antara kolom input */
     outline: none;
-    margin-top: 20px;
+    margin-top: 35px;
+    background-color: whitesmoke
 }
 .Tanggal{
     height: 35px; /* Tinggi input field */
@@ -150,13 +152,15 @@ body{
     border-radius: 20px;
     margin-right: 30px; /* Jarak antara kolom input */
     outline: none;
-    margin-top: 20px;
+    margin-top: 35px;
+    background-color: whitesmoke
 }
 
 .form-box {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: -70px;
 }
 
 /*TAMPILAN SEMUA KONSER*/
@@ -176,7 +180,7 @@ body{
     background:linear-gradient(deg, blueviolet, lightgreen);
     padding:15px 9%;
     padding-bottom: 50px;
-    margin-top: 5px;
+    padding-top: -300px;
     
 }
 
@@ -186,11 +190,12 @@ body{
     color:#fff;
     text-shadow: 0 5px 10px rgba(0,0,0,.2);
     font-size: 50px;
+    margin-top: -150px;
 }
 
 .container .box-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap:15px;
 }
 
@@ -202,7 +207,7 @@ body{
 }
 
 .container .box-container .box img{
-    height: 80px;
+    height: 120px;
 }
 
 .container .box-container .box h3{
@@ -245,18 +250,17 @@ body{
 
 /*Tampilan Footer*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-body{
-	line-height: 1.5;
-	font-family: 'Poppins', sans-serif;
-}
+
 *{
 	margin:0;
 	padding:0;
 	box-sizing: border-box;
 }
 .container{
-	max-width: 1170px;
+	max-width: 150%;
 	margin:auto;
+    height: 200%;
+
 }
 .row{
 	display: flex;
@@ -268,6 +272,9 @@ ul{
 .footer{
 	background-color: #24262b;
     padding: 70px 0;
+    width: 115%;
+    margin-left: -100px;
+    margin-top: 50px;
 }
 .footer-col{
    width: 25%;
